@@ -59,6 +59,9 @@ To learn more about Phpvirus/Oauth go [here](https://github.com/shamimhasan/PHP-
 
 ## Installation
 
+This library can be found on [Packagist](https://packagist.org/packages/phpvirus/oauth).
+The recommended way to install this is through [composer](http://getcomposer.org).
+
 Add oauth-4-laravel to your composer.json file:
 
 ```
@@ -68,8 +71,15 @@ Add oauth-4-laravel to your composer.json file:
 }
 ```
 
+And install dependencies:
 
-Use composer to install this package.
+```bash
+$ curl -sS https://getcomposer.org/installer | php
+$ php composer.phar install
+```
+
+
+Or Use composer to install this package.
 
 ```
 $ composer update
