@@ -19,7 +19,7 @@ return array(
 	'consumers' => array(
 
 		/**
-		 * Facebook
+		 * Stripe
 		 */
         'Stripe' => array(
             'client_id' => '',
