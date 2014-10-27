@@ -15,9 +15,13 @@
     ],
     "require": {
         "php": ">=5.3",
-		"darkvirus/oauth": "dev-master"
+		"phpvirus/oauth": "dev-master"
     },
 	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/shamimhasan/PHP-oAuth"
+		},
 		{
 			"type": "vcs",
 			"url": "https://github.com/shamimhasan/PHP-oAuth"
