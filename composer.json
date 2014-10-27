@@ -14,9 +14,14 @@
         }
     ],
     "require": {
-        "php": ">=5.3",
-		"darkvirus/oauth": "~0.3"
+        "php": ">=5.3"
     },
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/shamimhasan/PHP-oAuth"
+		}
+	],
     "require-dev": {
         "illuminate/support": "~4"
     },    
