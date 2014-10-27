@@ -63,23 +63,11 @@ Add oauth-4-laravel to your composer.json file:
 
 ```
 "require": {
-	"darkvirus/oauth-4-laravel": "dev-master",
-	"phpvirus/oauth": "dev-master"
+	"phpvirus/oauth": "0.1.*@dev",
+	"darkvirus/oauth-4-laravel": "dev-master"
 }
 ```
 
-```
-"repositories": [
-	{
-		"type": "vcs",
-		"url": "https://github.com/shamimhasan/PHP-oAuth"
-	},
-	{
-		"type": "vcs",
-		"url": "https://github.com/shamimhasan/Latavel-OAuth"
-	}		
-]
-```
 
 Use composer to install this package.
 
