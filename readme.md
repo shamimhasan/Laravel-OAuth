@@ -67,6 +67,8 @@ Add oauth-4-laravel to your composer.json file:
 	"phpvirus/oauth": "dev-master"
 }
 ```
+
+```
 "repositories": [
 	{
 		"type": "vcs",
